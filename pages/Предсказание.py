@@ -13,7 +13,7 @@ st.set_page_config(page_title="Прогноз цен на дома - Предс�
 # Функция для загрузки обученной модели (используем кэширование для ускорения)
 def load_model():
     try:
-        with open("ml_pipeline.pkl", "rb") as f:
+        with open("ml_pipelstreamlit run main.pyine.pkl", "rb") as f:
             model = pickle.load(f)
         return model
     except Exception as e:
